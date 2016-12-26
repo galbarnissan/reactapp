@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/greetInput.css'
+import './greetInput.css'
 
 class GreetInput extends React.Component{
   render () {

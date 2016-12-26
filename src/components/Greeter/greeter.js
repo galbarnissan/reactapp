@@ -1,9 +1,9 @@
 import React from 'react'
-import './css/greeter.css'
+import './greeter.css'
 
 class Greeter extends React.Component {
   render() {
-    return <h1 className="greet">{this.props.greeting}</h1>
+    return <h1 className="greet">Hello {this.props.greeting}!</h1>
   }
 
 }

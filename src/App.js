@@ -1,6 +1,6 @@
 import React from 'react';
-import {GreetInput} from './components/greetInput';
-import {Greeter} from './components/greeter';
+import {GreetInput} from './components/GreetInput/greetInput';
+import {Greeter} from './components/Greeter/greeter';
 
 // const App = () => <h1>Hello world!</h1>
 
@@ -8,7 +8,7 @@ class App extends React.Component{
   constructor(){
     super();
     this.state = {
-      greeting: ''
+      greeting: "world"
     }
   }
   update(event){
