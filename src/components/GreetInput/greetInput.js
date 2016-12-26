@@ -5,7 +5,7 @@ class GreetInput extends React.Component{
   render () {
     return (
       <div>
-        <div>Enter your greeting</div>
+        <div>Enter your team token</div>
         <input type="text" className="input" onChange={this.props.update} />
       </div>
     )
